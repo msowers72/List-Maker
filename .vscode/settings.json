@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveServer.settings.port": 5501,
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "github.copilot.nextEditSuggestions.enabled": false
+}
