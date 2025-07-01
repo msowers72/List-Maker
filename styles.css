@@ -149,3 +149,40 @@ li {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.delete-btn {
+    background: transparent;
+    color: #dc3545;
+    border: none;
+    font-size: 0.85;
+    cursor: pointer;
+    padding: 0;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}
+
+.scoreboard {
+    margin: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#appContent {
+    display: none;
+    width: 100%;
+    max-width: 900px;
+    padding: 2rem;
+}
+
+@media (max-width: 600px) {
+    .input-sectino input {
+        width: 100%;
+    }
+}
